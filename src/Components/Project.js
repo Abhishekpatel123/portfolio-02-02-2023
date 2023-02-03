@@ -15,11 +15,11 @@ function Project({
   return (
     <article className="grid grid-cols-1 md:grid-cols-2   gap-x-6 my-8 relative">
       {/* left */}
-      <div className="sticky top-0 h-min">
+      <div className="relative md:sticky top-0 h-min">
         <h1 className="dark:text-light-heading font-semibold text-lg pt-1">
           {title}
         </h1>
-        <p className="text-content pt-4 font-light">{description}</p>
+        <p className="text-content pt-1 font-light">{description}</p>
         <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
           {/* Tech Stack : <span className="font-light">{tech_usages.join(",")}</span> */}
           Tech Stack :{" "}
@@ -33,9 +33,25 @@ function Project({
             ))}
           </div>
         </h3>
-        <div className="mt-2 flex gap-2">
-          <AiFillGithub fontSize={20} />
-          <BiLinkExternal fontSize={20} />
+        <div className="my-2 flex gap-2">
+          <a
+            href={githubLink}
+            alt="github"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-blue-500 hover:scale-110"
+          >
+            <AiFillGithub fontSize={20} />
+          </a>
+          <a
+            href={liveLink}
+            rel="noreferrer"
+            target="_blank"
+            alt="project link"
+            className="hover:text-blue-500 hover:scale-110"
+          >
+            <BiLinkExternal fontSize={20} />
+          </a>
         </div>
       </div>
       {/* right */}
@@ -49,7 +65,11 @@ function Project({
                 className="text-blue-600 ml-2"
               />
             </div>
-            <img src={url} alt="" loading="lazy" className="" />
+            {url ? (
+              <img src={url} alt="" loading="lazy" className="" />
+            ) : (
+              <div>Image will be uploaded soon.</div>
+            )}
           </div>
         ))}
       </div>
