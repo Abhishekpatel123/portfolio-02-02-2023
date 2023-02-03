@@ -12,10 +12,10 @@ function Header() {
   return (
     <header className="container mx-auto md:flex justify-between py-2 max-width">
       <div className="flex justify-between items-center py-2 md:py-10">
-        <NavLink to="/" className={"bg-black rounded-full p-1 shadow-md"}>
+        <NavLink to="/" className={"bg-black rounded-full p-1 shadow-md z-20"}>
           <img className="w-8" src={logos.logogradient} alt="logo" />
         </NavLink>
-        <div onClick={toggleClass} className="cursor-pointer">
+        <div onClick={toggleClass} className="cursor-pointer z-20">
           <svg
             className="stroke-dark-heading dark:stroke-white md:hidden"
             width="25"
@@ -33,7 +33,14 @@ function Header() {
           </svg>
         </div>
       </div>
-      <nav className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between`}>
+      <nav
+        className={` ${
+          !isOpen && "translate-x-full md:translate-x-0"
+        } text-center 
+         flex bg-white z-10 p-4 max-md:absolute max-md:top-0 max-md:left-0 max-md:h-full max-md:w-full max-md:flex-col max-md:justify-evenly max-md:duration-200
+        `}
+        // md:flex justify-between duration-200 absolute top-16 left-0  bg-white z-10 w-full md:w-auto h-full md:h-auto p-4
+      >
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0">
             <NavLink to="/" onClick={toggleClass}>
