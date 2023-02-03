@@ -1,6 +1,5 @@
 import React from "react";
 import { skills, techStackDetails } from "../Details";
-import { SiHtml5 } from "react-icons/si";
 import SkillButton from "../Components/SkillButton";
 
 function Technologies() {
@@ -37,7 +36,7 @@ function Technologies() {
             <h2 className="text-2xl mb-1 uppercase">{name}</h2>
             <div className="flex flex-wrap">
               {values.map(({ label, Icon }) => (
-                <SkillButton Icon = {Icon} label = {label} />
+                <SkillButton Icon={Icon} label={label} />
               ))}
             </div>
           </section>
