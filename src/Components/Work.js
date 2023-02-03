@@ -10,7 +10,7 @@ function Work({
   duration,
   points,
   images,
-  website,
+  links,
 }) {
   return (
     <article className="pt-8 border-b-2 border-dark-content pb-5 dark:border-light-content border-opacity-20 dark:border-opacity-20">
@@ -68,7 +68,7 @@ function Work({
               key={`point-${index}`}
               className="text-content text-sm md:text-sm font-light pl-2"
             >
-            {point}
+              {point}
             </p>
           </div>
         ))}
@@ -78,7 +78,7 @@ function Work({
         {images?.map((image, index) => (
           <img
             key={`image-exp-${index}`}
-            alt="Image"
+            alt="Website"
             className="mr-2 w-1/4 shadow-lg bg-slate-800"
             src={image}
           />
@@ -86,17 +86,17 @@ function Work({
       </div>
       {/* links */}
       <div className="mt-4">
-        {website && (
+        {links?.map((link) => (
           <a
-            href={website}
+            href={link}
             target="_blank"
             rel="noreferrer"
-            className="flex w-32 items-center bg-slate-900  justify-center rounded-lg py-2 shadow-md"
+            className="flex w-28 items-center bg-slate-900  justify-center rounded-lg py-2 shadow-md"
           >
-            <h4 className="text-cyan-50 mr-1">Website</h4>
+            <h4 className="text-cyan-50 mr-2">Link</h4>
             <FiLink fontSize={18} className="text-cyan-50" />
           </a>
-        )}
+        ))}
       </div>
     </article>
   );

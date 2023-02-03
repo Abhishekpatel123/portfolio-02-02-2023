@@ -21,15 +21,7 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
-// Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
 
-import doof from "./assets/doof-home.png";
 import {
   SiTypescript,
   SiHtml5,
@@ -74,51 +66,6 @@ export const socialMediaUrl = {
   instagram: "https://www.instagram.com/abhishekpatel7339/",
 };
 
-// Enter your Work Experience here
-export const workDetails = [
-  {
-    Position: "React and React Native Developer (INTERN)",
-    Company: `Codeaxes Solutions`,
-    Location: "Bengaluru (Remote)",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-    points: [
-      "Recognized as the Best Intern Award.",
-      "Developed a chrome extension for video and screen recording.",
-      "Developed a system for taking feedback and survey test.",
-      "Used MERN STACK, AWS S3, Multipart, Heroku, etc.",
-    ],
-    images: [doof, doof],
-    website: "https://doof.co.in/",
-  },
-  {
-    Position: "MERN STACK Developer (INTERN)",
-    Company: `Doof Research Private Limited`,
-    Location: "Chhattisgarh (Remote)",
-    Type: "Internship",
-    Duration: "Jan 2021 - Mar 2022",
-    points: [
-      "Recognized as the Best Intern Award.",
-      "Developed a chrome extension for video and screen recording.",
-      "Developed a system for taking feedback and survey test.",
-      "Used MERN STACK, AWS S3, Multipart, Heroku, etc.",
-    ],
-  },
-  {
-    Position: "Backend developer (Freelance)",
-    Company: `Mendisure Incinerators`,
-    Location: "Remote",
-    Type: "Freelance",
-    Duration: "Mar 2021 - Apr 2021",
-    points: [
-      "Recognized as the Best Intern Award.",
-      "Developed a chrome extension for video and screen recording.",
-      "Developed a system for taking feedback and survey test.",
-      "Used MERN STACK, AWS S3, Multipart, Heroku, etc.",
-    ],
-  },
-];
-
 // Enter your Education Details here
 export const eduDetails = [
   {
@@ -155,64 +102,7 @@ export const techStackDetails = {
   figma: figma,
 };
 
-export {default as projects } from './db/project.db'
-// Enter your Project Details here
-export const projectDetails = [
-  {
-    title: "Project title 1",
-    image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 2",
-    image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 3",
-    image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-];
+export { default as projects } from "./db/project.db";
 
 // Enter your Contact Details here
 export const contactDetails = {
