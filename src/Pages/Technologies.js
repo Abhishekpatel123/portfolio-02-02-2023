@@ -31,12 +31,12 @@ function Technologies() {
       </section>
       {/* skills stack wise */}
       <div>
-        {skills.map(({ name, values }) => (
-          <section className="mt-4 p-2">
+        {skills.map(({ name, values }, idx) => (
+          <section className="mt-4 p-2" key={`skill-${idx}`}>
             <h2 className="text-2xl mb-1 uppercase">{name}</h2>
             <div className="flex flex-wrap">
               {values.map(({ label, Icon }) => (
-                <SkillButton Icon={Icon} label={label} />
+                <SkillButton key={`label-${label}`} Icon={Icon} label={label} />
               ))}
             </div>
           </section>

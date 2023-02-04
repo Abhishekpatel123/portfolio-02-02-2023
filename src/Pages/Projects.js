@@ -14,18 +14,21 @@ function Projects() {
         >
           {React.Children.toArray(
             projects.map(
-              ({
-                title,
-                tech_usages,
-                description,
-                liveLink,
-                githubLink,
-                images,
-                status,
-                id,
-              }) => (
+              (
+                {
+                  title,
+                  tech_usages,
+                  description,
+                  liveLink,
+                  githubLink,
+                  images,
+                  status,
+                  id,
+                },
+                idx
+              ) => (
                 <Project
-                  key={id}
+                  key={`project-${id}-${idx}`}
                   title={title}
                   tech_usages={tech_usages}
                   description={description}

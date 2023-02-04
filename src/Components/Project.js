@@ -34,9 +34,9 @@ function Project({
           {/* Tech Stack : <span className="font-light">{tech_usages.join(",")}</span> */}
           Tech Stack :{" "}
           <div className="my-2 flex flex-wrap">
-            {tech_usages?.map(({ Icon, label }) => (
+            {tech_usages?.map(({ Icon, label }, idx) => (
               <SkillButton
-                key={`skill-button-${label}`}
+                key={`skill-button-${label}-${idx}`}
                 Icon={Icon}
                 label={label}
               />
@@ -66,8 +66,11 @@ function Project({
       </div>
       {/* right */}
       <div>
-        {images?.map(({ url, name = "Default" }) => (
-          <div className="rounded-md shadow-md mb-5 bg-slate-900">
+        {images?.map(({ url, name = "Default" }, idx) => (
+          <div
+            className="rounded-md shadow-md mb-5 bg-slate-900"
+            key={`image-project-${idx}`}
+          >
             <div className="py-1 pr-2 flex justify-end items-center">
               <h6 className="text-right text-white text-sm">{name}</h6>
               <SiStyledcomponents

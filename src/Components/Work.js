@@ -62,7 +62,7 @@ function Work({
       {/* detailed */}
       <div className="mt-4">
         {points?.map((point, index) => (
-          <div className="flex items-center ml-4">
+          <div className="flex items-center ml-4" key={`point-${index}`}>
             <FaHandPointRight />
             <p
               key={`point-${index}`}
@@ -86,8 +86,9 @@ function Work({
       </div>
       {/* links */}
       <div className="mt-4">
-        {links?.map((link) => (
+        {links?.map((link, idx) => (
           <a
+            key={`link-${link}-${idx}`}
             href={link}
             target="_blank"
             rel="noreferrer"

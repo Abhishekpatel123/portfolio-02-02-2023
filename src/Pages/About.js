@@ -20,17 +20,21 @@ function About() {
         </h1>
         {React.Children.toArray(
           workExperiences.map(
-            ({
-              Position,
-              Company,
-              Location,
-              Type,
-              Duration,
-              points,
-              images,
-              links,
-            }) => (
+            (
+              {
+                Position,
+                Company,
+                Location,
+                Type,
+                Duration,
+                points,
+                images,
+                links,
+              },
+              idx
+            ) => (
               <Work
+                key={`work-${idx}`}
                 position={Position}
                 company={Company}
                 location={Location}
@@ -49,15 +53,18 @@ function About() {
           Education
         </h1>
         {React.Children.toArray(
-          eduDetails.map(({ Position, Company, Location, Type, Duration }) => (
-            <Work
-              position={Position}
-              company={Company}
-              location={Location}
-              type={Type}
-              duration={Duration}
-            />
-          ))
+          eduDetails.map(
+            ({ Position, Company, Location, Type, Duration }, idx) => (
+              <Work
+                key={`edu-detail-${idx}`}
+                position={Position}
+                company={Company}
+                location={Location}
+                type={Type}
+                duration={Duration}
+              />
+            )
+          )
         )}
       </section>
     </main>
