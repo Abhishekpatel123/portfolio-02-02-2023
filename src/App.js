@@ -11,11 +11,14 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/about" element={<About />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/technologies" element={<Technologies />} />
+        <Route path="/portfolio-02-02-2023" element={<Home />} />
+        <Route path="/portfolio-02-02-2023/about" element={<About />} />
+        <Route path="/portfolio-02-02-2023/contact" element={<Contact />} />
+        <Route path="/portfolio-02-02-2023/projects" element={<Projects />} />
+        <Route
+          path="/portfolio-02-02-2023/technologies"
+          element={<Technologies />}
+        />
       </Routes>
       <Footer />
     </Router>

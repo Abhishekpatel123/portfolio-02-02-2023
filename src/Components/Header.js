@@ -12,7 +12,10 @@ function Header() {
   return (
     <header className="container mx-auto md:flex justify-between py-2 max-width">
       <div className="flex justify-between items-center py-2 md:py-10">
-        <NavLink to="/" className={"bg-black rounded-full p-1 shadow-md z-20"}>
+        <NavLink
+          to="/portfolio-02-02-2023/portfolio-02-02-2023"
+          className={"bg-black rounded-full p-1 shadow-md z-20"}
+        >
           <img className="w-8" src={logos.logogradient} alt="logo" />
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer z-20">
@@ -43,27 +46,30 @@ function Header() {
       >
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0">
-            <NavLink to="/" onClick={toggleClass}>
+            <NavLink to="/portfolio-02-02-2023" onClick={toggleClass}>
               Home
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/about" onClick={toggleClass}>
+            <NavLink to="/portfolio-02-02-2023/about" onClick={toggleClass}>
               About
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/technologies" onClick={toggleClass}>
+            <NavLink
+              to="/portfolio-02-02-2023/technologies"
+              onClick={toggleClass}
+            >
               Technologies
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/projects" onClick={toggleClass}>
+            <NavLink to="/portfolio-02-02-2023/projects" onClick={toggleClass}>
               Projects
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" onClick={toggleClass}>
+            <NavLink to="/portfolio-02-02-2023/contact" onClick={toggleClass}>
               Contact
             </NavLink>
           </li>
