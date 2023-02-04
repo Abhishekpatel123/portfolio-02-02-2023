@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-02-02-2023/static/css/main.da97ec87.css",
-    "main.js": "/portfolio-02-02-2023/static/js/main.a7c511cf.js",
+    "main.css": "/portfolio-02-02-2023/static/css/main.0312b6a0.css",
+    "main.js": "/portfolio-02-02-2023/static/js/main.e2eb352c.js",
     "static/media/resume-28-01-2023.pdf": "/portfolio-02-02-2023/static/media/resume-28-01-2023.19a8d068dd76e42974d1.pdf",
     "static/media/organic-store1.jpeg": "/portfolio-02-02-2023/static/media/organic-store1.3de3dfc2cefebe5a8512.jpeg",
     "static/media/doof2.png": "/portfolio-02-02-2023/static/media/doof2.d09b4a42d2c872fe4228.png",
@@ -13,11 +13,11 @@
     "static/media/abhishek.jpg": "/portfolio-02-02-2023/static/media/abhishek.e50dc61a54af70433b31.jpg",
     "static/media/logo2.svg": "/portfolio-02-02-2023/static/media/logo2.8748cd4b53ed338faabde58af993f30a.svg",
     "index.html": "/portfolio-02-02-2023/index.html",
-    "main.da97ec87.css.map": "/portfolio-02-02-2023/static/css/main.da97ec87.css.map",
-    "main.a7c511cf.js.map": "/portfolio-02-02-2023/static/js/main.a7c511cf.js.map"
+    "main.0312b6a0.css.map": "/portfolio-02-02-2023/static/css/main.0312b6a0.css.map",
+    "main.e2eb352c.js.map": "/portfolio-02-02-2023/static/js/main.e2eb352c.js.map"
   },
   "entrypoints": [
-    "static/css/main.da97ec87.css",
-    "static/js/main.a7c511cf.js"
+    "static/css/main.0312b6a0.css",
+    "static/js/main.e2eb352c.js"
   ]
 }
