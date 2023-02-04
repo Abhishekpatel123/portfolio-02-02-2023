@@ -11,14 +11,24 @@ function Project({
   tech_usages,
   liveLink,
   githubLink,
+  status,
 }) {
   return (
     <article className="grid grid-cols-1 md:grid-cols-2   gap-x-6 my-8 relative">
       {/* left */}
       <div className="relative md:sticky top-0 h-min">
-        <h1 className="dark:text-light-heading font-semibold text-lg pt-1">
-          {title}
-        </h1>
+        <div className="flex justify-between items-center">
+          <h1 className="dark:text-light-heading font-semibold text-lg pt-1">
+            {title}
+          </h1>
+          <div
+            className={`${
+              status === "Completed" ? "bg-green-100" : "bg-red-100"
+            } py-0.5 px-2 rounded-md shadow-sm text-sm`}
+          >
+            {status}
+          </div>
+        </div>
         <p className="text-content pt-1 font-light">{description}</p>
         <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
           {/* Tech Stack : <span className="font-light">{tech_usages.join(",")}</span> */}
@@ -56,7 +66,7 @@ function Project({
       </div>
       {/* right */}
       <div>
-        {[...images, ...images, ...images]?.map(({ url, name = "Default" }) => (
+        {images?.map(({ url, name = "Default" }) => (
           <div className="rounded-md shadow-md mb-5 bg-slate-900">
             <div className="py-1 pr-2 flex justify-end items-center">
               <h6 className="text-right text-white text-sm">{name}</h6>

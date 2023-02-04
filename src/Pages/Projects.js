@@ -21,14 +21,18 @@ function Projects() {
                 liveLink,
                 githubLink,
                 images,
+                status,
+                id,
               }) => (
                 <Project
+                  key={id}
                   title={title}
                   tech_usages={tech_usages}
                   description={description}
                   liveLink={liveLink}
                   githubLink={githubLink}
                   images={images}
+                  status={status}
                 />
               )
             )
