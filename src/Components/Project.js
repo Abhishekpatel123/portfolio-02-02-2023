@@ -12,6 +12,7 @@ function Project({
   liveLink,
   githubLink,
   status,
+  type,
 }) {
   return (
     <article className="grid grid-cols-1 md:grid-cols-2   gap-x-6 my-8 relative">

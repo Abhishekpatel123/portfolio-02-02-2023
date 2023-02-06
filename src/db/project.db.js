@@ -10,10 +10,17 @@ import { TbBrandJavascript } from "react-icons/tb";
 import { strangerTalk } from "../assets";
 import { organicStoreImages } from "../assets/projects";
 
+export const projectType = {
+  ALL: "ALL",
+  WEB: "WEB",
+  APP: "APP",
+};
+
 const projects = [
   {
     id: "1",
     title: "Organic Store",
+    type: projectType.APP,
     status: "Working",
     tech_usages: [
       { label: "HTML", Icon: SiHtml5 },
@@ -34,6 +41,7 @@ const projects = [
     id: "2",
     title: "Live Comment Web App",
     status: "Completed",
+    type: projectType.WEB,
     tech_usages: [
       { label: "HTML", Icon: SiHtml5 },
       { label: "CSS", Icon: DiCss3 },
@@ -53,6 +61,7 @@ const projects = [
     id: "1",
     title: "PathPradarshak",
     status: "Working",
+    type: projectType.WEB,
     tech_usages: [
       { label: "HTML", Icon: SiHtml5 },
       { label: "CSS", Icon: DiCss3 },
