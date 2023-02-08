@@ -13,7 +13,8 @@
   @apply bg-clip-text bg-gradient text-transparent;
 }
 .section {
-  @apply pt-10 sm:pt-28 2xl:pt-44;
+  /* @apply pt-10 sm:pt-28 2xl:pt-44; */
+  @apply pt-10 sm:pt-11 2xl:pt-32;
 }
 .text-content {
   @apply dark:text-light-content text-dark-content;

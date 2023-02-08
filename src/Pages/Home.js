@@ -58,7 +58,7 @@ function Home() {
   // }, []);
 
   return (
-    <main className="container mx-auto max-width section md:flex justify-between items-center">
+    <main className="container mx-auto max-width  section md:flex justify-between items-center">
       <div>
         <h1
           // ref={h11}
@@ -80,18 +80,18 @@ function Home() {
         </h2>
         {/* button */}
         <a
-          className="bg-slate-900 mt-2 py-4 w-32 flex justify-center items-center rounded-lg shadow-md"
+          className="bg-slate-900 mt-6 py-4 w-32 flex justify-center items-center rounded-lg shadow-md"
           download={true}
           href={resumePdf}
         >
           <h4 className="text-white font-medium text-lg">Resume</h4>
         </a>
       </div>
-      <div className="mt-5 md:mt-0">
+      <div className="mt-5 md:mt-0 lg:w-[300px]">
         <img
           // ref={myimageref}
           // className="w-1/2 md:ml-auto animate-bounce"
-          className="md:ml-auto animate-pulse  rounded-xl shadow-lg border-4 border-l-blue-400 border-b-blue-500 border-r-blue-600 border-t-blue-700"
+          className="md:ml-auto animate-pulse w-full rounded-xl shadow-lg border-4 border-l-blue-400 border-b-blue-500 border-r-blue-600 border-t-blue-700"
           src={img}
           alt="Abhishek Patel"
         />
