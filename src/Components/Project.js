@@ -67,7 +67,7 @@ function Project({
       </div>
       {/* right */}
       <div>
-        {[...images, ...images, ...images]?.map(
+        {images?.map(
           ({ url, name = 'Default' }, idx) => (
             <div
               className='rounded-md shadow-md mb-5 bg-slate-900'

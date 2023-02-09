@@ -106,8 +106,9 @@ export { default as projects } from "./db/project.db";
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "abhipatel8719@gmail.com",
-  phone: "+91 8719098751",
+  email: 'abhipatel8719@gmail.com',
+  phone: '+91 8719098751',
+  instagram: 'https://www.instagram.com/abhishekpatel7339/',
 };
 
 export const skills = [
