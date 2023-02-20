@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Project from '../Components/Project';
+import { projectType } from '../constants';
 import { projects } from '../db';
-import { projectType } from '../db/project.db';
 
 function Projects() {
   const [filteredProjects, setFilteredProjects] = useState(projects);

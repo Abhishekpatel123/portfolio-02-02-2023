@@ -1,8 +1,9 @@
-import React from "react";
-import { AiFillGithub } from "react-icons/ai";
-import { BiLinkExternal } from "react-icons/bi";
-import { SiStyledcomponents } from "react-icons/si";
-import SkillButton from "./SkillButton";
+import React from 'react';
+import { AiFillGithub } from 'react-icons/ai';
+import { BiLinkExternal } from 'react-icons/bi';
+import { SiStyledcomponents } from 'react-icons/si';
+import { projectType } from '../constants';
+import SkillButton from './SkillButton';
 
 function Project({
   title,
@@ -17,7 +18,7 @@ function Project({
   return (
     <article className='grid grid-cols-1 md:grid-cols-2 gap-x-6 relative my-10 '>
       {/* left */}
-      <div className='relative md:sticky top-0 h-min min-h-[400px] '>
+      <div className='relative md:sticky top-0 h-min  '>
         <div className='flex justify-between items-center'>
           <h1 className='dark:text-light-heading font-semibold text-lg pt-1'>
             {title}
@@ -66,28 +67,33 @@ function Project({
         </div>
       </div>
       {/* right */}
-      <div>
-        {images?.map(
-          ({ url, name = 'Default' }, idx) => (
-            <div
-              className='rounded-md shadow-md mb-5 bg-slate-900'
-              key={`image-project-${idx}`}
-            >
-              <div className='py-1 pr-2 flex justify-end items-center'>
+      <div
+      // className={`${
+      //   type === projectType.APP && 'flex flex-wrap justify-between'
+      // }`}
+      className='flex flex-wrap justify-between items-center gap-x-2'
+      >
+        {images?.map(({ url, name = 'Default', imageType }, idx) => (
+          <div
+            className={`rounded-md shadow-md mb-5 h-min mx-auto  ${
+              imageType === projectType.APP && 'max-w-[200px]'
+            }`}
+            key={`image-project-${idx}`}
+          >
+            {/* <div className='py-1 pr-2 flex justify-end items-center'>
                 <h6 className='text-right text-white text-sm'>{name}</h6>
                 <SiStyledcomponents
                   fontSize={25}
                   className='text-blue-600 ml-2'
                 />
-              </div>
-              {url ? (
-                <img src={url} alt='' loading='lazy' className='' />
-              ) : (
-                <div>Image will be uploaded soon.</div>
-              )}
-            </div>
-          )
-        )}
+              </div> */}
+            {url ? (
+              <img src={url} alt='' loading='lazy' className='' />
+            ) : (
+              <div>Image will be uploaded soon.</div>
+            )}
+          </div>
+        ))}
       </div>
     </article>
   );

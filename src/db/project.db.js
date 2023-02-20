@@ -10,19 +10,18 @@ import {
 import { TbBrandJavascript } from 'react-icons/tb';
 import { FaAngular } from 'react-icons/fa';
 import { strangerTalk } from '../assets';
-import { organicStoreImages, portfolioImages } from '../assets/projects';
-
-export const projectType = {
-  ALL: 'ALL',
-  WEB: 'WEB',
-  APP: 'APP',
-};
+import {
+  organicStoreImages,
+  portfolioImages,
+  saveKaroImages,
+} from '../assets/projects';
+import { projectType } from '../constants';
 
 const projects = [
   {
     id: '1',
     title: 'Organic Store',
-    type: projectType.APP,
+    type: projectType.WEB,
     status: 'Working',
     tech_usages: [
       { label: 'HTML', Icon: SiHtml5 },
@@ -36,7 +35,7 @@ const projects = [
     ],
     description:
       'Designed and developed a fully dynamic web application to dynamically update each section. Includes all the e-commerce features like Wishlist, cart, payment history, order, etc.',
-    liveLink: 'https://comment-web-app.herokuapp.com',
+    liveLink: '',
     githubLink: 'https://github.com/Abhishekpatel123/organic-store-server',
     images: organicStoreImages,
   },
@@ -94,6 +93,25 @@ const projects = [
     liveLink: 'https://abhishekpatel8719.netlify.app/',
     githubLink: 'https://github.com/Abhishekpatel123/My-Portfolio',
     images: portfolioImages,
+  },
+  {
+    id: '5',
+    title: 'SaveKaro',
+    status: 'Working',
+    type: projectType.APP,
+    tech_usages: [
+      { label: 'JAVASCRIPT', Icon: TbBrandJavascript },
+      { label: 'TYPESCRIPT', Icon: SiTypescript },
+      { label: 'React Native', Icon: DiReact },
+      { label: 'NODE JS', Icon: SiNodedotjs },
+      { label: 'EXPRESS JS', Icon: SiExpress },
+      { Icon: SiMongodb, label: 'MONGODB' },
+    ],
+    description:
+      'It is a local ecommerce application which include two application (seller and customer).',
+    liveLink: '',
+    githubLink: 'https://github.com/Abhishekpatel123/savekaro-30-01-2023',
+    images: saveKaroImages,
   },
 ];
 
