@@ -53,7 +53,7 @@ function Project({
             rel='noreferrer'
             className='hover:text-blue-500 hover:scale-110'
           >
-            <AiFillGithub fontSize={20} />
+            <AiFillGithub fontSize={20} className = 'dark:fill-light-content'  />
           </a>
           <a
             href={liveLink}
@@ -62,7 +62,7 @@ function Project({
             alt='project link'
             className='hover:text-blue-500 hover:scale-110'
           >
-            <BiLinkExternal fontSize={20} />
+            <BiLinkExternal fontSize={20} className = 'dark:fill-light-content' />
           </a>
         </div>
       </div>

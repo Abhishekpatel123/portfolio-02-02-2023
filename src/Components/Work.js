@@ -63,7 +63,7 @@ function Work({
       <div className="mt-4">
         {points?.map((point, index) => (
           <div className="flex  ml-4" key={`point-${index}`}>
-            <FaHandPointRight className="" />
+            <FaHandPointRight className="dark:fill-light-heading" />
             <p className="flex-1 text-content text-sm md:text-sm font-light pl-2">
               {point}
             </p>

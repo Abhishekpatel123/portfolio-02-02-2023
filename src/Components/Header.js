@@ -41,7 +41,7 @@ function Header() {
         className={` ${
           !isOpen && 'translate-x-full md:translate-x-0'
         } text-center 
-         flex bg-white z-10 p-4 max-md:absolute max-md:top-0 max-md:left-0 max-md:h-full max-md:w-full max-md:flex-col max-md:justify-evenly max-md:duration-200
+         flex z-10 p-4 max-md:absolute max-md:top-0 max-md:left-0 max-md:h-full max-md:w-full max-md:flex-col max-md:justify-evenly max-md:duration-200
         `}
         // md:flex justify-between duration-200 absolute top-16 left-0  bg-white z-10 w-full md:w-auto h-full md:h-auto p-4
       >
