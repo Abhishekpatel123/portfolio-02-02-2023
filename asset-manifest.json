@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-02-02-2023/static/css/main.b83e3226.css",
-    "main.js": "/portfolio-02-02-2023/static/js/main.019540b8.js",
+    "main.css": "/portfolio-02-02-2023/static/css/main.f3d251e4.css",
+    "main.js": "/portfolio-02-02-2023/static/js/main.20ce571b.js",
+    "static/media/home-avtar2.jpg": "/portfolio-02-02-2023/static/media/home-avtar2.0a4893421f4eb80a395c.jpg",
     "static/media/portfolio4.png": "/portfolio-02-02-2023/static/media/portfolio4.4239300289f8967aa203.png",
     "static/media/resume-28-01-2023.pdf": "/portfolio-02-02-2023/static/media/resume-28-01-2023.19a8d068dd76e42974d1.pdf",
     "static/media/organic-store1.jpeg": "/portfolio-02-02-2023/static/media/organic-store1.3de3dfc2cefebe5a8512.jpeg",
@@ -11,21 +12,23 @@
     "static/media/doof1.png": "/portfolio-02-02-2023/static/media/doof1.784d356aa45275d1d3f6.png",
     "static/media/portfolio3.png": "/portfolio-02-02-2023/static/media/portfolio3.de9428b702f8f0bd6e31.png",
     "static/media/savekaro3.jpeg": "/portfolio-02-02-2023/static/media/savekaro3.c503bc6f77e25efb6e79.jpeg",
+    "static/media/codeaxes3.jpeg": "/portfolio-02-02-2023/static/media/codeaxes3.e731fce4406da93509a1.jpeg",
+    "static/media/codeaxes2.jpeg": "/portfolio-02-02-2023/static/media/codeaxes2.c0de8b36df92ad04edfa.jpeg",
     "static/media/savekaro4.jpeg": "/portfolio-02-02-2023/static/media/savekaro4.eaa2385809e2101714c6.jpeg",
     "static/media/portfolio1.png": "/portfolio-02-02-2023/static/media/portfolio1.4764bd37af42883976e9.png",
-    "static/media/codeaxes1.webp": "/portfolio-02-02-2023/static/media/codeaxes1.9ef2d1c4647dd842ae1b.webp",
     "static/media/savekaro1.jpeg": "/portfolio-02-02-2023/static/media/savekaro1.5c0d0bfc0727f163e6fb.jpeg",
     "static/media/portfolio2.png": "/portfolio-02-02-2023/static/media/portfolio2.7d717e833cf29649a71d.png",
     "static/media/stranger.talk.png": "/portfolio-02-02-2023/static/media/stranger.talk.24fe939d41767d8e6f1c.png",
     "static/media/savekaro2.jpeg": "/portfolio-02-02-2023/static/media/savekaro2.08aa8c49808ded3a8515.jpeg",
     "static/media/abhishek.jpg": "/portfolio-02-02-2023/static/media/abhishek.e50dc61a54af70433b31.jpg",
     "static/media/logo2.svg": "/portfolio-02-02-2023/static/media/logo2.8748cd4b53ed338faabde58af993f30a.svg",
+    "static/media/home-avtar.svg": "/portfolio-02-02-2023/static/media/home-avtar.f62f3e695d210101ecd37ab5ec8c7008.svg",
     "index.html": "/portfolio-02-02-2023/index.html",
-    "main.b83e3226.css.map": "/portfolio-02-02-2023/static/css/main.b83e3226.css.map",
-    "main.019540b8.js.map": "/portfolio-02-02-2023/static/js/main.019540b8.js.map"
+    "main.f3d251e4.css.map": "/portfolio-02-02-2023/static/css/main.f3d251e4.css.map",
+    "main.20ce571b.js.map": "/portfolio-02-02-2023/static/js/main.20ce571b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b83e3226.css",
-    "static/js/main.019540b8.js"
+    "static/css/main.f3d251e4.css",
+    "static/js/main.20ce571b.js"
   ]
 }
