@@ -77,7 +77,7 @@ function Home() {
             // ref={h13}
             className='text-center sm:text-left text-2xl text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold'
           >
-            {tagline.toUpperCase()}
+            {tagline}
           </h2>
           {/* button */}
           <a

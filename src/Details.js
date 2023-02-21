@@ -53,11 +53,11 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Abhishek Patel",
+  name: 'Abhishek Patel',
   // tagline: "I build things for web and app",
-  tagline: "I turn idea into reality.",
+  tagline: 'I turn idea into reality.',
   img: profileAvtar2,
-  about: `I love to make idea into reality. I am a Web and App developer based in Gwalior. I really enjoy learning languages and frameworks like React js, React Native, Express js etc also I am good in problem solving skill`,
+  about: `Highly skilled and innovative software Engineer with 2+ years Of hands-on experience in web application development. Focused and efficient learner with practical expertise in native apps, seeking a full stack developer position with Intelletec.`,
 };
 
 // Enter your Social Media URLs here
