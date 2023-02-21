@@ -7,6 +7,7 @@ import logogradient from "./assets/logo192.png";
 // Profile Image
 import profile from "./assets/abhishek.jpg";
 import profileAvtar from "./assets/home-avtar.svg";
+import profileAvtar2 from "./assets/home-avtar2.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
@@ -55,7 +56,7 @@ export const personalDetails = {
   name: "Abhishek Patel",
   // tagline: "I build things for web and app",
   tagline: "I turn idea into reality.",
-  img: profileAvtar,
+  img: profileAvtar2,
   about: `I love to make idea into reality. I am a Web and App developer based in Gwalior. I really enjoy learning languages and frameworks like React js, React Native, Express js etc also I am good in problem solving skill`,
 };
 

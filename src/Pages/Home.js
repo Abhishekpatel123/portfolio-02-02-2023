@@ -60,7 +60,7 @@ function Home() {
   return (
     <div className='container mx-auto section max-width'>
       <main className='md:flex justify-between items-start min-h-[70vh]'>
-        <div>
+        <div className='flex-1'>
           <h1
             // ref={h11}
             className='text-center sm:text-left text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold'
@@ -75,9 +75,9 @@ function Home() {
           </h1>
           <h2
             // ref={h13}
-            className='text-center sm:text-left text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold'
+            className='text-center sm:text-left text-2xl text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold'
           >
-            {tagline}
+            {tagline.toUpperCase()}
           </h2>
           {/* button */}
           <a
@@ -88,7 +88,8 @@ function Home() {
             <h4 className='text-white font-medium text-lg'>Resume</h4>
           </a>
         </div>
-        <div className='mt-5 md:mt-0 sm:w-[300px] w-[60%] mx-auto'>
+        {/* <div className='mt-5 md:mt-0 sm:w-[350px] w-[60%] mx-auto'> */}
+        <div className='mt-5 md:mt-0 flex-1 mx-auto'>
           <img
             // ref={myimageref}
             // className="w-1/2 md:ml-auto animate-bounce"
