@@ -71,12 +71,13 @@ function Work({
         ))}
       </div>
       {/* images */}
-      <div className="mt-4 flex">
+      <div className="mt-4 flex scroll-auto">
         {images?.map((image, index) => (
           <img
             key={`image-exp-${index}`}
             alt="Website"
-            className="mr-2 w-1/4 shadow-lg bg-slate-800"
+            // className="mr-2 w-1/4 shadow-lg bg-slate-800"
+            className="mr-2 h-[280px] shadow-xl bg-slate-800 rounded-sm"
             src={image}
           />
         ))}
