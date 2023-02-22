@@ -35,7 +35,7 @@ function Projects() {
                 <h4
                   className={`${
                     projectType === selected && 'text-white'
-                  } text-sm `}
+                  } text-sm dark:text-light-heading`}
                 >
                   {projectType}
                 </h4>
