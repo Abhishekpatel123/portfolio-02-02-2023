@@ -1,7 +1,9 @@
 import React from 'react';
 import { AiFillGithub } from 'react-icons/ai';
-import { BiLinkExternal } from 'react-icons/bi';
+import { BiLinkExternal, BiServer } from 'react-icons/bi';
+import { HiDesktopComputer } from 'react-icons/hi';
 import { SiStyledcomponents } from 'react-icons/si';
+import { BsLink45Deg } from 'react-icons/bs';
 import { projectType } from '../constants';
 import SkillButton from './SkillButton';
 
@@ -12,6 +14,7 @@ function Project({
   tech_usages,
   liveLink,
   githubLink,
+  githubServerLink,
   status,
   type,
 }) {
@@ -45,33 +48,69 @@ function Project({
             ))}
           </div>
         </h3>
-        <div className='my-2 flex gap-2'>
-          <a
-            href={githubLink}
-            alt='github'
-            target='_blank'
-            rel='noreferrer'
-            className='hover:text-blue-500 hover:scale-110'
-          >
-            <AiFillGithub fontSize={20} className = 'dark:fill-light-content'  />
-          </a>
-          <a
-            href={liveLink}
-            rel='noreferrer'
-            target='_blank'
-            alt='project link'
-            className='hover:text-blue-500 hover:scale-110'
-          >
-            <BiLinkExternal fontSize={20} className = 'dark:fill-light-content' />
-          </a>
+        <div className='my-2 flex gap-4 items-center'>
+          {/* Github */}
+          <div className='flex items-center rounded-md shadow-lg border'>
+            <div className='bg-slate-200 p-1'>
+              <AiFillGithub fontSize={20} className='dark:fill-light-content' />
+            </div>
+            {githubLink && (
+              <a
+                href={githubLink}
+                alt='github'
+                target='_blank'
+                rel='noreferrer'
+                className='hover:text-blue-500 hover:scale-110 px-2'
+              >
+                <HiDesktopComputer
+                  fontSize={20}
+                  className='dark:fill-light-content'
+                />
+              </a>
+            )}
+            {githubServerLink && (
+              <a
+                href={githubServerLink}
+                alt='github'
+                target='_blank'
+                rel='noreferrer'
+                className='hover:text-blue-500 hover:scale-110 px-2'
+              >
+                <BiServer fontSize={20} className='dark:fill-light-content' />
+              </a>
+            )}
+          </div>
+          {/* Link */}
+          {liveLink && (
+            <div className='flex items-center rounded-md shadow-lg border'>
+              <div className='bg-slate-200 p-1'>
+                <BiLinkExternal
+                  fontSize={20}
+                  className='dark:fill-light-content'
+                />
+              </div>
+              <a
+                href={liveLink}
+                alt='github'
+                target='_blank'
+                rel='noreferrer'
+                className='hover:text-blue-500 hover:scale-110 px-2'
+              >
+                <BsLink45Deg
+                  fontSize={20}
+                  className='dark:fill-light-content'
+                />
+              </a>
+            </div>
+          )}
         </div>
       </div>
       {/* right */}
       <div
-      // className={`${
-      //   type === projectType.APP && 'flex flex-wrap justify-between'
-      // }`}
-      className='flex flex-wrap justify-between items-center gap-x-2'
+        // className={`${
+        //   type === projectType.APP && 'flex flex-wrap justify-between'
+        // }`}
+        className='flex flex-wrap justify-between items-center gap-x-2'
       >
         {images?.map(({ url, name = 'Default', imageType }, idx) => (
           <div

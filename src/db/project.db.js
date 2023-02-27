@@ -36,7 +36,7 @@ const projects = [
     description:
       'Designed and developed a fully dynamic web application to dynamically update each section. Includes all the e-commerce features like Wishlist, cart, payment history, order, etc.',
     liveLink: '',
-    githubLink: 'https://github.com/Abhishekpatel123/organic-store-server',
+    githubServerLink: 'https://github.com/Abhishekpatel123/organic-store-server',
     images: organicStoreImages,
   },
   {
@@ -74,8 +74,9 @@ const projects = [
       { Icon: SiMongodb, label: 'MONGODB' },
     ],
     description: 'Ab pade kam paise mai or gher mai rehete hue',
-    liveLink: 'https://comment-web-app.herokuapp.com',
-    githubLink: 'https://comment-web-app.herokuapp.com',
+    liveLink: 'https://pathpradarshak.netlify.app/',
+    githubLink: 'https://github.com/Abhishekpatel123/pathpradarshak-client.git',
+    githubServerLink: 'https://github.com/Abhishekpatel123/pathpradarshak-server.git',
     images: [],
   },
   {
@@ -111,6 +112,7 @@ const projects = [
       'It is a local ecommerce application which include two application (seller and customer).',
     liveLink: '',
     githubLink: 'https://github.com/Abhishekpatel123/savekaro-30-01-2023',
+    githubServerLink: 'https://github.com/Abhishekpatel123/savekaro-api',
     images: saveKaroImages,
   },
 ];

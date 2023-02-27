@@ -44,8 +44,8 @@ function Projects() {
           </div>
         </div>
         <div
-          // className=' divide-green-600 divide-y-4'
-          //className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10"
+        // className=' divide-green-600 divide-y-4'
+        //className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10"
         >
           {React.Children.toArray(
             filteredProjects.map(
@@ -60,6 +60,7 @@ function Projects() {
                   status,
                   id,
                   type,
+                  githubServerLink,
                 },
                 idx
               ) => (
@@ -74,6 +75,7 @@ function Projects() {
                     images={images}
                     status={status}
                     type={type}
+                    githubServerLink={githubServerLink}
                   />
                 </>
               )
