@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio-02-02-2023/static/css/main.f3d251e4.css",
-    "main.js": "/portfolio-02-02-2023/static/js/main.3fb4576a.js",
+    "main.css": "/portfolio-02-02-2023/static/css/main.3b657ba2.css",
+    "main.js": "/portfolio-02-02-2023/static/js/main.b29d6f67.js",
     "static/media/home-avtar2.jpg": "/portfolio-02-02-2023/static/media/home-avtar2.0a4893421f4eb80a395c.jpg",
     "static/media/portfolio4.png": "/portfolio-02-02-2023/static/media/portfolio4.4239300289f8967aa203.png",
-    "static/media/resume-28-01-2023.pdf": "/portfolio-02-02-2023/static/media/resume-28-01-2023.19a8d068dd76e42974d1.pdf",
     "static/media/organic-store1.jpeg": "/portfolio-02-02-2023/static/media/organic-store1.3de3dfc2cefebe5a8512.jpeg",
     "static/media/doof2.png": "/portfolio-02-02-2023/static/media/doof2.d09b4a42d2c872fe4228.png",
     "static/media/organic-store2.jpeg": "/portfolio-02-02-2023/static/media/organic-store2.92fa41a05cca88d2a48d.jpeg",
@@ -19,16 +18,17 @@
     "static/media/savekaro1.jpeg": "/portfolio-02-02-2023/static/media/savekaro1.5c0d0bfc0727f163e6fb.jpeg",
     "static/media/portfolio2.png": "/portfolio-02-02-2023/static/media/portfolio2.7d717e833cf29649a71d.png",
     "static/media/stranger.talk.png": "/portfolio-02-02-2023/static/media/stranger.talk.24fe939d41767d8e6f1c.png",
+    "static/media/resume-22-02-2023.pdf": "/portfolio-02-02-2023/static/media/resume-22-02-2023.164acfa7957f94d96b5a.pdf",
     "static/media/savekaro2.jpeg": "/portfolio-02-02-2023/static/media/savekaro2.08aa8c49808ded3a8515.jpeg",
     "static/media/abhishek.jpg": "/portfolio-02-02-2023/static/media/abhishek.e50dc61a54af70433b31.jpg",
-    "static/media/logo2.svg": "/portfolio-02-02-2023/static/media/logo2.8748cd4b53ed338faabde58af993f30a.svg",
     "static/media/home-avtar.svg": "/portfolio-02-02-2023/static/media/home-avtar.f62f3e695d210101ecd37ab5ec8c7008.svg",
     "index.html": "/portfolio-02-02-2023/index.html",
-    "main.f3d251e4.css.map": "/portfolio-02-02-2023/static/css/main.f3d251e4.css.map",
-    "main.3fb4576a.js.map": "/portfolio-02-02-2023/static/js/main.3fb4576a.js.map"
+    "static/media/ap-logo.svg": "/portfolio-02-02-2023/static/media/ap-logo.347cf7bbee9cc5b1ce23983c54be76ca.svg",
+    "main.3b657ba2.css.map": "/portfolio-02-02-2023/static/css/main.3b657ba2.css.map",
+    "main.b29d6f67.js.map": "/portfolio-02-02-2023/static/js/main.b29d6f67.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3d251e4.css",
-    "static/js/main.3fb4576a.js"
+    "static/css/main.3b657ba2.css",
+    "static/js/main.b29d6f67.js"
   ]
 }
