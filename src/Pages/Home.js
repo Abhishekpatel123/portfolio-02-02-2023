@@ -93,7 +93,8 @@ function Home() {
           <img
             // ref={myimageref}
             // className="w-1/2 md:ml-auto animate-bounce"
-            className='md:ml-auto w-full rounded-full shadow-lg border-4 hover:border-t-[-20px] hover:animate-none hover:scale-110 cursor-pointer transition-all hover:border-r-[20px] border-l-blue-400 border-b-blue-500 border-r-slate-600 border-t-slate-700'
+            // className='md:ml-auto w-full rounded-full shadow-lg border-4  border-l-blue-400 border-b-blue-500 border-r-slate-600 border-t-slate-700'
+            className='md:ml-auto w-full rounded-full'
             src={img}
             alt='Abhishek Patel'
           />

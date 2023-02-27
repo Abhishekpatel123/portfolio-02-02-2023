@@ -14,10 +14,10 @@ function Header() {
       <div className='flex justify-between items-center py-2 md:py-10'>
         <NavLink
           to='/portfolio-02-02-2023'
-          className={'bg-black  p-1 shadow-md z-20 flex items-center px-2 rounded-md'}
+          // className={'bg-black  p-1 shadow-md z-20 flex items-center px-2 rounded-md'}
         >
-          <img className='w-8' src={logos.logogradient} alt='logo' />
-          <span className='text-white text-2xl ml-1 font-bold italic'>Patel</span>
+          <img className='w-12' src={logos.apLogo} alt='logo' />
+          {/* <span className='text-white text-2xl ml-1 font-bold italic'>Patel</span> */}
         </NavLink>
         <div onClick={toggleClass} className='cursor-pointer z-20'>
           <svg

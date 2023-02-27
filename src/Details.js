@@ -2,7 +2,8 @@
 // Enter all your detials in this file
 // Logo images
 // import logogradient from "./assets/logo.svg";
-import logo from "./assets/logo2.svg";
+// import logo from "./assets/logo2.svg";
+import apLogo from "./assets/ap-logo.svg";
 import logogradient from "./assets/logo192.png";
 // Profile Image
 import profile from "./assets/abhishek.jpg";
@@ -48,7 +49,8 @@ import { TbBrandReactNative, TbBrandJavascript } from "react-icons/tb";
 // Logos
 export const logos = {
   logogradient: logogradient,
-  logo: logo,
+  // logo: logo,
+  apLogo
 };
 
 // Enter your Personal Details here
