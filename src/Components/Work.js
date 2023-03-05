@@ -77,7 +77,7 @@ function Work({
             key={`image-exp-${index}`}
             alt="Website"
             // className="mr-2 w-1/4 shadow-lg bg-slate-800"
-            className="mr-2 h-[200px] shadow-xl bg-slate-800 rounded-sm"
+            className="mr-2 h-[300px] rounded-sm"
             src={image}
           />
         ))}

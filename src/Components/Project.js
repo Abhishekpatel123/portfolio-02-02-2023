@@ -114,7 +114,8 @@ function Project({
       >
         {images?.map(({ url, name = 'Default', imageType }, idx) => (
           <div
-            className={`rounded-md shadow-md mb-5 h-min mx-auto  ${
+            // className={`rounded-md shadow-md mb-5 h-min mx-auto  ${
+            className={`mb-5 h-min mx-auto  ${
               imageType === projectType.APP && 'max-w-[200px]'
             }`}
             key={`image-project-${idx}`}
@@ -127,7 +128,7 @@ function Project({
                 />
               </div> */}
             {url ? (
-              <img src={url} alt='' loading='lazy' className='' />
+              <img src={url} alt='' loading='lazy' className='object-contain'  />
             ) : (
               <div>Image will be uploaded soon.</div>
             )}

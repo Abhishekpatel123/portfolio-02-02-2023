@@ -1,6 +1,7 @@
 import { projectType } from '../../constants';
 import organicStore1 from './organic-store/organic-store1.jpeg';
 import organicStore2 from './organic-store/organic-store2.jpeg';
+import organicStore3 from './organic-store/3.png';
 import portfolio1 from './portfolio/portfolio1.png';
 import portfolio2 from './portfolio/portfolio2.png';
 import portfolio3 from './portfolio/portfolio3.png';
@@ -9,10 +10,14 @@ import savekaro1 from './savekaro/savekaro1.jpeg';
 import savekaro2 from './savekaro/savekaro2.jpeg';
 import savekaro3 from './savekaro/savekaro3.jpeg';
 import savekaro4 from './savekaro/savekaro4.jpeg';
+import pathpradarshak1 from './pathpradarshak/1.jpeg';
+import pathpradarshak2 from './pathpradarshak/2.png';
+import pathpradarshak3 from './pathpradarshak/3.png';
 
 export const organicStoreImages = [
   { name: 'Frontend', imageType: projectType.WEB, url: organicStore1 },
   { name: 'Frontend', imageType: projectType.WEB, url: organicStore2 },
+  { name: 'Frontend', imageType: projectType.WEB, url: organicStore3 },
 ];
 
 export const portfolioImages = [
@@ -27,4 +32,10 @@ export const saveKaroImages = [
   { name: 'Frontend', imageType: projectType.APP, url: savekaro2 },
   { name: 'Frontend', imageType: projectType.APP, url: savekaro3 },
   { name: 'Frontend', imageType: projectType.APP, url: savekaro4 },
+];
+
+export const pathPradarshakImages = [
+  { name: 'Frontend', imageType: projectType.WEB, url: pathpradarshak1 },
+  // { name: 'Frontend', imageType: projectType.WEB, url: pathpradarshak2 },
+  { name: 'Frontend', imageType: projectType.WEB, url: pathpradarshak3 },
 ];

@@ -14,6 +14,7 @@ import {
   organicStoreImages,
   portfolioImages,
   saveKaroImages,
+  pathPradarshakImages,
 } from '../assets/projects';
 import { projectType } from '../constants';
 
@@ -36,7 +37,8 @@ const projects = [
     description:
       'Designed and developed a fully dynamic web application to dynamically update each section. Includes all the e-commerce features like Wishlist, cart, payment history, order, etc.',
     liveLink: '',
-    githubServerLink: 'https://github.com/Abhishekpatel123/organic-store-server',
+    githubServerLink:
+      'https://github.com/Abhishekpatel123/organic-store-server',
     images: organicStoreImages,
   },
   {
@@ -76,8 +78,9 @@ const projects = [
     description: 'Ab pade kam paise mai or gher mai rehete hue',
     liveLink: 'https://pathpradarshak.netlify.app/',
     githubLink: 'https://github.com/Abhishekpatel123/pathpradarshak-client.git',
-    githubServerLink: 'https://github.com/Abhishekpatel123/pathpradarshak-server.git',
-    images: [],
+    githubServerLink:
+      'https://github.com/Abhishekpatel123/pathpradarshak-server.git',
+    images: pathPradarshakImages,
   },
   {
     id: '4',
