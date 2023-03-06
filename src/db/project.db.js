@@ -20,6 +20,26 @@ import { projectType } from '../constants';
 
 const projects = [
   {
+    id: '5',
+    title: 'SaveKaro',
+    status: 'Working',
+    type: projectType.APP,
+    tech_usages: [
+      { label: 'JAVASCRIPT', Icon: TbBrandJavascript },
+      { label: 'TYPESCRIPT', Icon: SiTypescript },
+      { label: 'React Native', Icon: DiReact },
+      { label: 'NODE JS', Icon: SiNodedotjs },
+      { label: 'EXPRESS JS', Icon: SiExpress },
+      { Icon: SiMongodb, label: 'MONGODB' },
+    ],
+    description:
+      'It is a local ecommerce application which include two application (seller and customer).',
+    liveLink: '',
+    githubLink: 'https://github.com/Abhishekpatel123/savekaro-30-01-2023',
+    githubServerLink: 'https://github.com/Abhishekpatel123/savekaro-api',
+    images: saveKaroImages,
+  },
+  {
     id: '1',
     title: 'Organic Store',
     type: projectType.WEB,
@@ -40,26 +60,6 @@ const projects = [
     githubServerLink:
       'https://github.com/Abhishekpatel123/organic-store-server',
     images: organicStoreImages,
-  },
-  {
-    id: '2',
-    title: 'Live Comment Web App',
-    status: 'Completed',
-    type: projectType.WEB,
-    tech_usages: [
-      { label: 'HTML', Icon: SiHtml5 },
-      { label: 'CSS', Icon: DiCss3 },
-      { label: 'JAVASCRIPT', Icon: TbBrandJavascript },
-      { label: 'NODE JS', Icon: SiNodedotjs },
-      { label: 'EXPRESS JS', Icon: SiExpress },
-      { Icon: SiMongodb, label: 'MONGODB' },
-      { label: 'SOCKET.IO', Icon: SiSocketdotio },
-    ],
-    description:
-      'Developed a fully functional real-time chat application using Node.js, socket.io, and Mustache. mplemented the concept of room-based segregation of users with a unique display name and room name. It has an option for sending location through chat messages, location is made by concatenating coordinates in the URL of google maps. Also, Profanity is not allowed, those words are blocked and are not sent.',
-    liveLink: 'https://comment-web-app.herokuapp.com',
-    githubLink: 'https://comment-web-app.herokuapp.com',
-    images: [{ url: strangerTalk, name: 'Frontend Home Page' }],
   },
   {
     id: '3',
@@ -83,6 +83,26 @@ const projects = [
     images: pathPradarshakImages,
   },
   {
+    id: '2',
+    title: 'Live Comment Web App',
+    status: 'Completed',
+    type: projectType.WEB,
+    tech_usages: [
+      { label: 'HTML', Icon: SiHtml5 },
+      { label: 'CSS', Icon: DiCss3 },
+      { label: 'JAVASCRIPT', Icon: TbBrandJavascript },
+      { label: 'NODE JS', Icon: SiNodedotjs },
+      { label: 'EXPRESS JS', Icon: SiExpress },
+      { Icon: SiMongodb, label: 'MONGODB' },
+      { label: 'SOCKET.IO', Icon: SiSocketdotio },
+    ],
+    description:
+      'Developed a fully functional real-time chat application using Node.js, socket.io, and Mustache. mplemented the concept of room-based segregation of users with a unique display name and room name. It has an option for sending location through chat messages, location is made by concatenating coordinates in the URL of google maps. Also, Profanity is not allowed, those words are blocked and are not sent.',
+    liveLink: 'https://comment-web-app.herokuapp.com',
+    githubLink: 'https://comment-web-app.herokuapp.com',
+    images: [{ url: strangerTalk, name: 'Frontend Home Page' }],
+  },
+  {
     id: '4',
     title: 'Portfolio',
     status: 'Completed',
@@ -97,26 +117,6 @@ const projects = [
     liveLink: 'https://abhishekpatel8719.netlify.app/',
     githubLink: 'https://github.com/Abhishekpatel123/My-Portfolio',
     images: portfolioImages,
-  },
-  {
-    id: '5',
-    title: 'SaveKaro',
-    status: 'Working',
-    type: projectType.APP,
-    tech_usages: [
-      { label: 'JAVASCRIPT', Icon: TbBrandJavascript },
-      { label: 'TYPESCRIPT', Icon: SiTypescript },
-      { label: 'React Native', Icon: DiReact },
-      { label: 'NODE JS', Icon: SiNodedotjs },
-      { label: 'EXPRESS JS', Icon: SiExpress },
-      { Icon: SiMongodb, label: 'MONGODB' },
-    ],
-    description:
-      'It is a local ecommerce application which include two application (seller and customer).',
-    liveLink: '',
-    githubLink: 'https://github.com/Abhishekpatel123/savekaro-30-01-2023',
-    githubServerLink: 'https://github.com/Abhishekpatel123/savekaro-api',
-    images: saveKaroImages,
   },
 ];
 

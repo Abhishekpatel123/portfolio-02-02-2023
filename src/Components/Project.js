@@ -19,9 +19,9 @@ function Project({
   type,
 }) {
   return (
-    <article className='grid grid-cols-1 md:grid-cols-2 gap-x-6 relative my-10 '>
+    <article className='grid grid-cols-1 lg:grid-cols-2 gap-x-20 relative my-10 '>
       {/* left */}
-      <div className='relative md:sticky top-0 h-min  '>
+      <div className='relative lg:sticky top-0 h-min  '>
         <div className='flex justify-between items-center'>
           <h1 className='dark:text-light-heading font-semibold text-lg pt-1'>
             {title}
@@ -128,7 +128,7 @@ function Project({
                 />
               </div> */}
             {url ? (
-              <img src={url} alt='' loading='lazy' className='object-contain'  />
+              <img src={url} alt='' loading='lazy' className='object-contain mt-4 lg:mt-1'  />
             ) : (
               <div>Image will be uploaded soon.</div>
             )}
