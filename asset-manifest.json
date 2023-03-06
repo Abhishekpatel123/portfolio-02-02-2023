@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio-02-02-2023/static/css/main.3af458b9.css",
-    "main.js": "/portfolio-02-02-2023/static/js/main.90dca34b.js",
+    "main.css": "/portfolio-02-02-2023/static/css/main.67f4ad63.css",
+    "main.js": "/portfolio-02-02-2023/static/js/main.0ffc6e1a.js",
     "static/media/home-avtar2.jpg": "/portfolio-02-02-2023/static/media/home-avtar2.0a4893421f4eb80a395c.jpg",
     "static/media/3.png": "/portfolio-02-02-2023/static/media/3.0818a79eb1f520004c18.png",
+    "static/media/6.png": "/portfolio-02-02-2023/static/media/6.0d508bfeca6315f6875e.png",
     "static/media/2.png": "/portfolio-02-02-2023/static/media/2.fe96828aa9c36853d5dc.png",
     "static/media/codeaxes2.png": "/portfolio-02-02-2023/static/media/codeaxes2.3c940eafa290a4e86240.png",
     "static/media/portfolio4.png": "/portfolio-02-02-2023/static/media/portfolio4.4239300289f8967aa203.png",
     "static/media/4.png": "/portfolio-02-02-2023/static/media/4.2b2b6f577a030239f4fa.png",
+    "static/media/5.png": "/portfolio-02-02-2023/static/media/5.1f16f60055d5c3d40ce3.png",
     "static/media/organic-store1.jpeg": "/portfolio-02-02-2023/static/media/organic-store1.95f2bd5e82c4cd598aa6.jpeg",
     "static/media/doof2.png": "/portfolio-02-02-2023/static/media/doof2.d09b4a42d2c872fe4228.png",
     "static/media/organic-store2.jpeg": "/portfolio-02-02-2023/static/media/organic-store2.92fa41a05cca88d2a48d.jpeg",
@@ -28,11 +30,11 @@
     "static/media/home-avtar.svg": "/portfolio-02-02-2023/static/media/home-avtar.f62f3e695d210101ecd37ab5ec8c7008.svg",
     "index.html": "/portfolio-02-02-2023/index.html",
     "static/media/ap-logo.svg": "/portfolio-02-02-2023/static/media/ap-logo.347cf7bbee9cc5b1ce23983c54be76ca.svg",
-    "main.3af458b9.css.map": "/portfolio-02-02-2023/static/css/main.3af458b9.css.map",
-    "main.90dca34b.js.map": "/portfolio-02-02-2023/static/js/main.90dca34b.js.map"
+    "main.67f4ad63.css.map": "/portfolio-02-02-2023/static/css/main.67f4ad63.css.map",
+    "main.0ffc6e1a.js.map": "/portfolio-02-02-2023/static/js/main.0ffc6e1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.3af458b9.css",
-    "static/js/main.90dca34b.js"
+    "static/css/main.67f4ad63.css",
+    "static/js/main.0ffc6e1a.js"
   ]
 }
