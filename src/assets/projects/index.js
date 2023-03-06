@@ -33,7 +33,7 @@ export const saveKaroImages = [
   // { name: 'Frontend', imageType: projectType.APP, url: savekaro1 },
   // { name: 'Frontend', imageType: projectType.APP, url: savekaro2 },
   // { name: 'Frontend', imageType: projectType.APP, url: savekaro3 },
-  // { name: 'Frontend', imageType: projectType.WEB, url: savekaro5 },
+  { name: 'Frontend', imageType: projectType.WEB, url: savekaro5 },
   { name: 'Frontend', imageType: projectType.WEB, url: savekaro6 },
 ];
 
