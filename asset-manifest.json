@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-02-02-2023/static/css/main.67f4ad63.css",
-    "main.js": "/portfolio-02-02-2023/static/js/main.0ffc6e1a.js",
+    "main.css": "/portfolio-02-02-2023/static/css/main.3ecd1c8c.css",
+    "main.js": "/portfolio-02-02-2023/static/js/main.ab56fd30.js",
     "static/media/home-avtar2.jpg": "/portfolio-02-02-2023/static/media/home-avtar2.0a4893421f4eb80a395c.jpg",
     "static/media/3.png": "/portfolio-02-02-2023/static/media/3.0818a79eb1f520004c18.png",
     "static/media/6.png": "/portfolio-02-02-2023/static/media/6.0d508bfeca6315f6875e.png",
@@ -27,14 +27,15 @@
     "static/media/resume-22-02-2023.pdf": "/portfolio-02-02-2023/static/media/resume-22-02-2023.164acfa7957f94d96b5a.pdf",
     "static/media/savekaro2.jpeg": "/portfolio-02-02-2023/static/media/savekaro2.08aa8c49808ded3a8515.jpeg",
     "static/media/abhishek.jpg": "/portfolio-02-02-2023/static/media/abhishek.e50dc61a54af70433b31.jpg",
+    "static/media/1.jpg": "/portfolio-02-02-2023/static/media/1.17174ec21341240ce694.jpg",
     "static/media/home-avtar.svg": "/portfolio-02-02-2023/static/media/home-avtar.f62f3e695d210101ecd37ab5ec8c7008.svg",
     "index.html": "/portfolio-02-02-2023/index.html",
     "static/media/ap-logo.svg": "/portfolio-02-02-2023/static/media/ap-logo.347cf7bbee9cc5b1ce23983c54be76ca.svg",
-    "main.67f4ad63.css.map": "/portfolio-02-02-2023/static/css/main.67f4ad63.css.map",
-    "main.0ffc6e1a.js.map": "/portfolio-02-02-2023/static/js/main.0ffc6e1a.js.map"
+    "main.3ecd1c8c.css.map": "/portfolio-02-02-2023/static/css/main.3ecd1c8c.css.map",
+    "main.ab56fd30.js.map": "/portfolio-02-02-2023/static/js/main.ab56fd30.js.map"
   },
   "entrypoints": [
-    "static/css/main.67f4ad63.css",
-    "static/js/main.0ffc6e1a.js"
+    "static/css/main.3ecd1c8c.css",
+    "static/js/main.ab56fd30.js"
   ]
 }
