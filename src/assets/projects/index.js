@@ -15,6 +15,7 @@ import savekaro6 from './savekaro/6.png';
 import pathpradarshak1 from './pathpradarshak/1.jpeg';
 import pathpradarshak2 from './pathpradarshak/2.png';
 import pathpradarshak3 from './pathpradarshak/3.png';
+import linnker1 from './linnker/1.jpg';
 
 export const organicStoreImages = [
   // { name: 'Frontend', imageType: projectType.WEB, url: organicStore1 },
@@ -41,4 +42,8 @@ export const pathPradarshakImages = [
   // { name: 'Frontend', imageType: projectType.WEB, url: pathpradarshak1 },
   // { name: 'Frontend', imageType: projectType.WEB, url: pathpradarshak2 },
   { name: 'Frontend', imageType: projectType.WEB, url: pathpradarshak3 },
+];
+
+export const linnkerImages = [
+  { nme: 'Frontend', imageType: projectType.WEB, url: linnker1 },
 ];

@@ -15,6 +15,7 @@ import {
   portfolioImages,
   saveKaroImages,
   pathPradarshakImages,
+  linnkerImages
 } from '../assets/projects';
 import { projectType } from '../constants';
 
@@ -104,6 +105,22 @@ const projects = [
   },
   {
     id: '4',
+    title: 'Linnker',
+    status: 'Completed',
+    type: projectType.WEB,
+    tech_usages: [
+      { label: 'HTML', Icon: SiHtml5 },
+      { label: 'CSS', Icon: DiCss3 },
+      { label: 'JAVASCRIPT', Icon: TbBrandJavascript },
+      { label: 'Next JS', Icon: DiReact },
+    ],
+    description: `It's an application that aims to solve the problem of finding the right WhatsApp groups for specific purposes. With Linnker, users can easily discover verified WhatsApp groups that meet their interests and needs. Additionally, the ability to add new groups to the platform will undoubtedly make the app even more valuable over time as more users contribute. As WhatsApp continues to grow in popularity as a communication platform, it can be challenging to find the right groups with verified members and quality content. Linnker is a solution to this problem that will undoubtedly be a game-changer for many users. Your valuable support is highly appreciated. It will help you and the users of the linnker to find the best possible group..`,
+    liveLink: 'https://linnker.vercel.app/',
+    githubLink: 'https://github.com/AnantKumawat22/Linnker',
+    images: linnkerImages,
+  },
+  {
+    id: '5',
     title: 'Portfolio',
     status: 'Completed',
     type: projectType.WEB,
