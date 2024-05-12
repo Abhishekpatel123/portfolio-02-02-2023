@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-02-02-2023/static/css/main.3ecd1c8c.css",
-    "main.js": "/portfolio-02-02-2023/static/js/main.ab56fd30.js",
+    "main.css": "/portfolio-02-02-2023/static/css/main.6af7ab3c.css",
+    "main.js": "/portfolio-02-02-2023/static/js/main.7f7c3ac2.js",
     "static/media/home-avtar2.jpg": "/portfolio-02-02-2023/static/media/home-avtar2.0a4893421f4eb80a395c.jpg",
     "static/media/3.png": "/portfolio-02-02-2023/static/media/3.0818a79eb1f520004c18.png",
     "static/media/6.png": "/portfolio-02-02-2023/static/media/6.0d508bfeca6315f6875e.png",
     "static/media/2.png": "/portfolio-02-02-2023/static/media/2.fe96828aa9c36853d5dc.png",
     "static/media/codeaxes2.png": "/portfolio-02-02-2023/static/media/codeaxes2.3c940eafa290a4e86240.png",
     "static/media/portfolio4.png": "/portfolio-02-02-2023/static/media/portfolio4.4239300289f8967aa203.png",
+    "static/media/1.png": "/portfolio-02-02-2023/static/media/1.c9b0ad04fa185527726d.png",
     "static/media/4.png": "/portfolio-02-02-2023/static/media/4.2b2b6f577a030239f4fa.png",
     "static/media/5.png": "/portfolio-02-02-2023/static/media/5.1f16f60055d5c3d40ce3.png",
     "static/media/organic-store1.jpeg": "/portfolio-02-02-2023/static/media/organic-store1.95f2bd5e82c4cd598aa6.jpeg",
@@ -19,23 +20,23 @@
     "static/media/savekaro3.jpeg": "/portfolio-02-02-2023/static/media/savekaro3.c503bc6f77e25efb6e79.jpeg",
     "static/media/1.jpeg": "/portfolio-02-02-2023/static/media/1.7560c034d268030a410d.jpeg",
     "static/media/codeaxes3.jpeg": "/portfolio-02-02-2023/static/media/codeaxes3.e731fce4406da93509a1.jpeg",
+    "static/media/resume.pdf": "/portfolio-02-02-2023/static/media/resume.3842654fe247e38e8c70.pdf",
     "static/media/savekaro4.jpeg": "/portfolio-02-02-2023/static/media/savekaro4.eaa2385809e2101714c6.jpeg",
     "static/media/portfolio1.png": "/portfolio-02-02-2023/static/media/portfolio1.4764bd37af42883976e9.png",
     "static/media/savekaro1.jpeg": "/portfolio-02-02-2023/static/media/savekaro1.5c0d0bfc0727f163e6fb.jpeg",
     "static/media/portfolio2.png": "/portfolio-02-02-2023/static/media/portfolio2.7d717e833cf29649a71d.png",
     "static/media/stranger.talk.png": "/portfolio-02-02-2023/static/media/stranger.talk.24fe939d41767d8e6f1c.png",
-    "static/media/resume-22-02-2023.pdf": "/portfolio-02-02-2023/static/media/resume-22-02-2023.164acfa7957f94d96b5a.pdf",
     "static/media/savekaro2.jpeg": "/portfolio-02-02-2023/static/media/savekaro2.08aa8c49808ded3a8515.jpeg",
     "static/media/abhishek.jpg": "/portfolio-02-02-2023/static/media/abhishek.e50dc61a54af70433b31.jpg",
     "static/media/1.jpg": "/portfolio-02-02-2023/static/media/1.17174ec21341240ce694.jpg",
     "static/media/home-avtar.svg": "/portfolio-02-02-2023/static/media/home-avtar.f62f3e695d210101ecd37ab5ec8c7008.svg",
     "index.html": "/portfolio-02-02-2023/index.html",
-    "static/media/ap-logo.svg": "/portfolio-02-02-2023/static/media/ap-logo.347cf7bbee9cc5b1ce23983c54be76ca.svg",
-    "main.3ecd1c8c.css.map": "/portfolio-02-02-2023/static/css/main.3ecd1c8c.css.map",
-    "main.ab56fd30.js.map": "/portfolio-02-02-2023/static/js/main.ab56fd30.js.map"
+    "static/media/ap-logo.svg": "/portfolio-02-02-2023/static/media/ap-logo.848d3b852fc09b0f6e68720eec7b8f35.svg",
+    "main.6af7ab3c.css.map": "/portfolio-02-02-2023/static/css/main.6af7ab3c.css.map",
+    "main.7f7c3ac2.js.map": "/portfolio-02-02-2023/static/js/main.7f7c3ac2.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ecd1c8c.css",
-    "static/js/main.ab56fd30.js"
+    "static/css/main.6af7ab3c.css",
+    "static/js/main.7f7c3ac2.js"
   ]
 }
