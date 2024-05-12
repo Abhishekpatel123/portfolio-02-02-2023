@@ -21,7 +21,7 @@ function Header() {
         </NavLink>
         <div onClick={toggleClass} className='cursor-pointer z-20'>
           <svg
-            className='stroke-dark-heading dark:stroke-white md:hidden'
+            className='stroke-dark-heading md:hidden'
             width='25'
             height='20'
             viewBox='0 0 16 13'
@@ -45,7 +45,7 @@ function Header() {
         `}
         // md:flex justify-between duration-200 absolute top-16 left-0  bg-white z-10 w-full md:w-auto h-full md:h-auto p-4
       >
-        <ul className='dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10'>
+        <ul className=' font-medium md:flex items-center md:space-x-5 md:mr-10'>
           <li className='pb-1 md:pb-0'>
             <NavLink to='/portfolio-02-02-2023' onClick={toggleClass}>
               Home
@@ -79,7 +79,7 @@ function Header() {
           <li>
             <a href={twitter} target='_blank' rel='noreferrer noopener'>
               <svg
-                className='dark:fill-light-heading fill-dark-heading'
+                className=' fill-dark-heading'
                 width='32'
                 height='32'
                 viewBox='0 0 32 32'
@@ -93,7 +93,7 @@ function Header() {
           <li>
             <a href={linkdein} target='_blank' rel='noreferrer noopener'>
               <svg
-                className='dark:fill-light-heading fill-dark-heading'
+                className=' fill-dark-heading'
                 width='30'
                 height='30'
                 viewBox='0 0 30 30'
@@ -107,7 +107,7 @@ function Header() {
           <li>
             <a href={github} target='_blank' rel='noreferrer noopener'>
               <svg
-                className='dark:fill-light-heading fill-dark-heading'
+                className=' fill-dark-heading'
                 width='30'
                 height='30'
                 viewBox='0 0 30 30'

@@ -15,11 +15,31 @@ import {
   portfolioImages,
   saveKaroImages,
   pathPradarshakImages,
-  linnkerImages
+  linnkerImages,
+  gyanmargImages,
 } from '../assets/projects';
 import { projectType } from '../constants';
 
 const projects = [
+  {
+    id: '7',
+    title: 'Gyanmarg',
+    status: 'Working',
+    type: projectType.WEB,
+    tech_usages: [
+      { label: 'JAVASCRIPT', Icon: TbBrandJavascript },
+      { label: 'TYPESCRIPT', Icon: SiTypescript },
+      { label: 'React Native', Icon: DiReact },
+      { label: 'NODE JS', Icon: SiNodedotjs },
+      { label: 'EXPRESS JS', Icon: SiExpress },
+      { Icon: SiMongodb, label: 'MONGODB' },
+    ],
+    description: 'Website offers structured courses for free..',
+    liveLink: 'https://gyanmarg.vercel.app/',
+    githubLink: '',
+    githubServerLink: '',
+    images: gyanmargImages,
+  },
   {
     id: '5',
     title: 'SaveKaro',

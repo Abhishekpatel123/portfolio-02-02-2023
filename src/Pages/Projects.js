@@ -19,7 +19,7 @@ function Projects() {
       <section>
         {/* project header */}
         <div className='flex justify-between '>
-          <h1 className='text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold'>
+          <h1 className='text-2xl text-dark-heading  md:text-4xl xl:text-5xl xl:leading-tight font-bold'>
             Projects
           </h1>
           {/* SORT FUNCTIONALITY */}
@@ -35,7 +35,7 @@ function Projects() {
                 <h4
                   className={`${
                     projectType === selected && 'text-white'
-                  } text-sm dark:text-light-heading`}
+                  } text-sm `}
                 >
                   {projectType}
                 </h4>

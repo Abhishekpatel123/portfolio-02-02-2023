@@ -16,6 +16,9 @@ import pathpradarshak1 from './pathpradarshak/1.jpeg';
 import pathpradarshak2 from './pathpradarshak/2.png';
 import pathpradarshak3 from './pathpradarshak/3.png';
 import linnker1 from './linnker/1.jpg';
+import gyanmarg1 from './gyanmarg/1.png';
+import gyanmarg2 from './gyanmarg/2.png';
+import gyanmarg3 from './gyanmarg/3.png';
 
 export const organicStoreImages = [
   // { name: 'Frontend', imageType: projectType.WEB, url: organicStore1 },
@@ -45,5 +48,11 @@ export const pathPradarshakImages = [
 ];
 
 export const linnkerImages = [
-  { nme: 'Frontend', imageType: projectType.WEB, url: linnker1 },
+  { name: 'Frontend', imageType: projectType.WEB, url: linnker1 },
+];
+
+export const gyanmargImages = [
+  { name: 'Frontend', imageType: projectType.WEB, url: gyanmarg1 },
+  { name: 'Frontend', imageType: projectType.WEB, url: gyanmarg2 },
+  { name: 'Frontend', imageType: projectType.WEB, url: gyanmarg3 },
 ];

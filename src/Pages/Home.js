@@ -63,7 +63,7 @@ function Home() {
         <div className='flex-1'>
           <h1
             // ref={h11}
-            className='text-center sm:text-left text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold'
+            className='text-center sm:text-left text-2xl text-dark-heading  md:text-4xl xl:text-5xl xl:leading-tight font-bold'
           >
             Hi,👋<br></br>My Name is<br></br>
           </h1>
@@ -75,7 +75,7 @@ function Home() {
           </h1>
           <h2
             // ref={h13}
-            className='text-center sm:text-left text-2xl text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold'
+            className='text-center sm:text-left text-2xl text-dark-heading  md:text-2xl xl:text-3xl xl:leading-tight font-bold'
           >
             {tagline}
           </h2>
@@ -105,7 +105,7 @@ function Home() {
         </div>
       </main>
       <section className='pb-10 section'>
-        <h1 className='text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold'>
+        <h1 className='text-2xl text-dark-heading  md:text-4xl xl:text-5xl xl:leading-tight font-bold'>
           About Me
         </h1>
         <p className='text-content py-8 lg:max-w-3xl'>

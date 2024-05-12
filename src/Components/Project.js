@@ -23,7 +23,7 @@ function Project({
       {/* left */}
       <div className='relative lg:sticky top-0 h-min  '>
         <div className='flex justify-between items-center'>
-          <h1 className='dark:text-light-heading font-semibold text-lg pt-1'>
+          <h1 className=' font-semibold text-lg pt-1'>
             {title}
           </h1>
           <div
@@ -35,7 +35,7 @@ function Project({
           </div>
         </div>
         <p className='text-content pt-1 font-light'>{description}</p>
-        <h3 className='text-dark-heading dark:text-light-heading font-medium pt-4'>
+        <h3 className='text-dark-heading  font-medium pt-4'>
           {/* Tech Stack : <span className="font-light">{tech_usages.join(",")}</span> */}
           Tech Stack :{' '}
           <div className='my-2 flex flex-wrap'>
@@ -52,7 +52,7 @@ function Project({
           {/* Github */}
           <div className='flex items-center rounded-md shadow-lg border'>
             <div className='bg-slate-200 p-1'>
-              <AiFillGithub fontSize={20} className='dark:fill-light-content' />
+              <AiFillGithub fontSize={20} className='' />
             </div>
             {githubLink && (
               <a
@@ -64,7 +64,7 @@ function Project({
               >
                 <HiDesktopComputer
                   fontSize={20}
-                  className='dark:fill-light-content'
+                  className=''
                 />
               </a>
             )}
@@ -76,7 +76,7 @@ function Project({
                 rel='noreferrer'
                 className='hover:text-blue-500 hover:scale-110 px-2'
               >
-                <BiServer fontSize={20} className='dark:fill-light-content' />
+                <BiServer fontSize={20} className='' />
               </a>
             )}
           </div>
@@ -86,7 +86,7 @@ function Project({
               <div className='bg-slate-200 p-1'>
                 <BiLinkExternal
                   fontSize={20}
-                  className='dark:fill-light-content'
+                  className=''
                 />
               </div>
               <a
@@ -98,7 +98,7 @@ function Project({
               >
                 <BsLink45Deg
                   fontSize={20}
-                  className='dark:fill-light-content'
+                  className=''
                 />
               </a>
             </div>

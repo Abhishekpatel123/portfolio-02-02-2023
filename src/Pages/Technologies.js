@@ -22,7 +22,7 @@ function Technologies() {
   return (
     <main className='container mx-auto max-width pt-10 pb-20 '>
       <section>
-        <h1 className='text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold'>
+        <h1 className='text-2xl text-dark-heading  md:text-4xl xl:text-5xl xl:leading-tight font-bold'>
           Tech Stack
         </h1>
         <p className='text-content py-2 lg:max-w-3xl'>
@@ -33,7 +33,7 @@ function Technologies() {
       <div>
         {skills.map(({ name, values }, idx) => (
           <section className='mt-4 p-2' key={`skill-${idx}`}>
-            <h2 className='text-2xl mb-1 uppercase dark:text-light-heading'>
+            <h2 className='text-2xl mb-1 uppercase '>
               {name}
             </h2>
             <div className='flex flex-wrap'>
@@ -45,7 +45,7 @@ function Technologies() {
         ))}
       </div>
       <section>
-        <h1 className='text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold'>
+        <h1 className='text-2xl pt-10 text-dark-heading  md:text-4xl xl:text-5xl xl:leading-tight font-bold'>
           {/* EXAMPLES */}
         </h1>
       </section>

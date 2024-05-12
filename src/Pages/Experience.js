@@ -7,7 +7,7 @@ function Experience() {
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
       <section>
-        <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h1 className="text-2xl text-dark-heading  md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Work Experience
         </h1>
         {React.Children.toArray(
@@ -41,7 +41,7 @@ function Experience() {
         )}
       </section>
       <section>
-        <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h1 className="text-2xl pt-10 text-dark-heading  md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Education
         </h1>
         {React.Children.toArray(
