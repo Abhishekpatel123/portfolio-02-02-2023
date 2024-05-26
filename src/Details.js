@@ -59,7 +59,7 @@ export const personalDetails = {
   // tagline: "I build things for web and app",
   tagline: 'I turn idea into reality.',
   img: profileAvtar2,
-  about: `Highly skilled and innovative software Engineer with 2+ years Of hands-on experience in web application development. Focused and efficient learner with practical expertise in native apps, seeking a full stack developer position with Intelletec.`,
+  about: `Highly skilled and innovative software Engineer with 3+ years Of hands-on experience in web application development. Focused and efficient learner with practical expertise in native apps, seeking a full stack developer position with Intelletec.`,
 };
 
 // Enter your Social Media URLs here
