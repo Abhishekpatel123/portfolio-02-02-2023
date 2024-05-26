@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2.0/static/css/main.6af7ab3c.css",
-    "main.js": "/portfolio2.0/static/js/main.fe462301.js",
+    "main.js": "/portfolio2.0/static/js/main.e7c5981b.js",
     "static/media/home-avtar2.jpg": "/portfolio2.0/static/media/home-avtar2.0a4893421f4eb80a395c.jpg",
     "static/media/3.png": "/portfolio2.0/static/media/3.0818a79eb1f520004c18.png",
     "static/media/6.png": "/portfolio2.0/static/media/6.0d508bfeca6315f6875e.png",
@@ -33,10 +33,10 @@
     "index.html": "/portfolio2.0/index.html",
     "static/media/ap-logo.svg": "/portfolio2.0/static/media/ap-logo.848d3b852fc09b0f6e68720eec7b8f35.svg",
     "main.6af7ab3c.css.map": "/portfolio2.0/static/css/main.6af7ab3c.css.map",
-    "main.fe462301.js.map": "/portfolio2.0/static/js/main.fe462301.js.map"
+    "main.e7c5981b.js.map": "/portfolio2.0/static/js/main.e7c5981b.js.map"
   },
   "entrypoints": [
     "static/css/main.6af7ab3c.css",
-    "static/js/main.fe462301.js"
+    "static/js/main.e7c5981b.js"
   ]
 }
