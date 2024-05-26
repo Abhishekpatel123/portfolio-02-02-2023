@@ -81,8 +81,9 @@ function Home() {
           {/* button */}
           <a
             className='mx-auto sm:mx-0 bg-slate-900 mt-10 py-4 w-32 flex justify-center items-center rounded-lg shadow-md'
-            download={true}
             href={RESUME_DRIVE_URL}
+            target='_blank'
+            rel='noreferrer'
           >
             <h4 className='text-white font-medium text-lg'>Resume</h4>
           </a>
