@@ -1,7 +1,6 @@
-import React, { useRef, useLayoutEffect } from 'react';
-import gsap from 'gsap';
+import React, { useRef } from 'react';
 import { personalDetails } from '../Details';
-import { resumePdf } from '../assets';
+import { RESUME_DRIVE_URL } from '../constants';
 
 function Home() {
   const { name, tagline, img } = personalDetails;
@@ -83,7 +82,7 @@ function Home() {
           <a
             className='mx-auto sm:mx-0 bg-slate-900 mt-10 py-4 w-32 flex justify-center items-center rounded-lg shadow-md'
             download={true}
-            href={resumePdf}
+            href={RESUME_DRIVE_URL}
           >
             <h4 className='text-white font-medium text-lg'>Resume</h4>
           </a>
