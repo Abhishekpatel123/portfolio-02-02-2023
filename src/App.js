@@ -6,21 +6,22 @@ import Experience from './Pages/Experience';
 import Contact from './Pages/Contact';
 import Projects from './Pages/Projects';
 import Technologies from './Pages/Technologies';
+import { BASE_URL } from './constants';
 
 function App() {
   return (
     <Router>
       <Header />
       <Routes>
-        <Route path='/portfolio-02-02-2023' element={<Home />} />
+        <Route path={`${BASE_URL}`} element={<Home />} />
         <Route
-          path='/portfolio-02-02-2023/experience'
+          path={`${BASE_URL}/experience`}
           element={<Experience />}
         />
-        <Route path='/portfolio-02-02-2023/contact' element={<Contact />} />
-        <Route path='/portfolio-02-02-2023/projects' element={<Projects />} />
+        <Route path={`${BASE_URL}/contact`} element={<Contact />} />
+        <Route path={`${BASE_URL}/projects`} element={<Projects />} />
         <Route
-          path='/portfolio-02-02-2023/technologies'
+          path={`${BASE_URL}/technologies`}
           element={<Technologies />}
         />
       </Routes>

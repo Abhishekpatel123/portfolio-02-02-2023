@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { logos, socialMediaUrl } from '../Details';
+import { BASE_URL } from '../constants';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,7 @@ function Header() {
     <header className='container mx-auto md:flex justify-between py-2 max-width'>
       <div className='flex justify-between items-center py-2 md:py-10'>
         <NavLink
-          to='/portfolio-02-02-2023'
+          to={`${BASE_URL}`}
           // className={'bg-black  p-1 shadow-md z-20 flex items-center px-2 rounded-md'}
         >
           <img className='w-12' src={logos.apLogo} alt='logo' />
@@ -47,30 +48,27 @@ function Header() {
       >
         <ul className=' font-medium md:flex items-center md:space-x-5 md:mr-10'>
           <li className='pb-1 md:pb-0'>
-            <NavLink to='/portfolio-02-02-2023' onClick={toggleClass}>
+            <NavLink to={`${BASE_URL}`} onClick={toggleClass}>
               Home
             </NavLink>
           </li>
           <li className='pb-1 md:pb-0'>
-            <NavLink to='/portfolio-02-02-2023/experience' onClick={toggleClass}>
+            <NavLink to={`${BASE_URL}/experience`} onClick={toggleClass}>
               Experience
             </NavLink>
           </li>
           <li className='pb-1 md:pb-0'>
-            <NavLink
-              to='/portfolio-02-02-2023/technologies'
-              onClick={toggleClass}
-            >
+            <NavLink to={`${BASE_URL}/technologies`} onClick={toggleClass}>
               Technologies
             </NavLink>
           </li>
           <li className='pb-1 md:pb-0'>
-            <NavLink to='/portfolio-02-02-2023/projects' onClick={toggleClass}>
+            <NavLink to={`${BASE_URL}/projects`} onClick={toggleClass}>
               Projects
             </NavLink>
           </li>
           <li>
-            <NavLink to='/portfolio-02-02-2023/contact' onClick={toggleClass}>
+            <NavLink to={`${BASE_URL}/contact`} onClick={toggleClass}>
               Contact
             </NavLink>
           </li>

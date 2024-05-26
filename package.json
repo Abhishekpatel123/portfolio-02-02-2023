@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://Abhishekpatel123.github.io/portfolio-02-02-2023",
+  "homepage": "https://Abhishekpatel123.github.io/portfolio2.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
