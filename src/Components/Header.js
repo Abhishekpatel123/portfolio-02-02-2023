@@ -42,27 +42,27 @@ function Header() {
         className={` ${
           !isOpen && 'translate-x-full md:translate-x-0'
         } text-center 
-         flex z-10 p-4 max-md:absolute max-md:top-0 max-md:left-0 max-md:h-full max-md:w-full max-md:flex-col max-md:justify-evenly max-md:duration-200
+          bg-white flex z-10 p-4 max-md:fixed max-md:top-0 max-md:left-0 max-md:h-full max-md:w-full max-md:flex-col max-md:justify-evenly max-md:duration-200
         `}
         // md:flex justify-between duration-200 absolute top-16 left-0  bg-white z-10 w-full md:w-auto h-full md:h-auto p-4
       >
         <ul className=' font-medium md:flex items-center md:space-x-5 md:mr-10'>
-          <li className='pb-1 md:pb-0'>
+          <li className='pb-4 md:pb-0'>
             <NavLink to={`${BASE_URL}`} onClick={toggleClass}>
               Home
             </NavLink>
           </li>
-          <li className='pb-1 md:pb-0'>
+          <li className='pb-4 md:pb-0'>
             <NavLink to={`${BASE_URL}/experience`} onClick={toggleClass}>
               Experience
             </NavLink>
           </li>
-          <li className='pb-1 md:pb-0'>
+          <li className='pb-4 md:pb-0'>
             <NavLink to={`${BASE_URL}/technologies`} onClick={toggleClass}>
               Technologies
             </NavLink>
           </li>
-          <li className='pb-1 md:pb-0'>
+          <li className='pb-4 md:pb-0'>
             <NavLink to={`${BASE_URL}/projects`} onClick={toggleClass}>
               Projects
             </NavLink>
